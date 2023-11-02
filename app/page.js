@@ -59,7 +59,7 @@ setMainTask(copyTask)
               deleteHandler(i)
             }}
 
-            className='bg-green-400 px-4 py-2 rounded font-bold '>Delete </button>
+            className='bg-[#ea1441] px-4 py-2 rounded font-bold '>Delete </button>
         </li>
 
       )
@@ -73,16 +73,16 @@ setMainTask(copyTask)
 
 
   return (
-    <>
-      <h1 className='bg-black text-white
-        p-5 text-5xl font-bold text-center '>Aman's ToDo List</h1>
+    < >
+      <h1 className='bg-[#064058] text-white
+        p-5 text-5xl font-bold text-center mt-8 '>Aman's ToDo List</h1>
 
-      <form onSubmit={submitHandler}>
-
-
+      <form className='flex justify-center' onSubmit={submitHandler}>
 
 
-        <input className='text-2xl border-2 border-yellow-400  m-5 px-4 py-2
+
+
+        <input className='text-2xl border-4 border-[#3d3d3d]   m-5 px-4 py-2
     ' type="text" placeholder="write your Title  here "
           value={title}
           onChange={(e) => {
@@ -93,7 +93,7 @@ setMainTask(copyTask)
 
 
 
-        <input className='text-2xl border-2 border-yellow-400  m-5 px-4 py-2
+        <input className='text-2xl border-4 border-[#3d3d3d]  m-5 px-4 py-2
     ' type="text" placeholder="write description  here "
           value={desc}
           onChange={(e) => {
@@ -102,14 +102,14 @@ setMainTask(copyTask)
 
         />
 
-        <button className='bg-black text-white px-3 py-2 text-2xl 
+        <button className='bg-[#0B87D3] text-white px-3 py-2 text-2xl 
     font-bold rounded m-5'>Add Task</button>
       </form>
 
 
       <hr />
 
-      <div className='p-8 bg-slate-500'>
+      <div className='p-8 bg-[#0b2c46] text-white'>
 
 
         <ul>
